@@ -1,5 +1,5 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Socket.io Applications
-============================================================
+![cf](http://i.imgur.com/7v5ASc8.png) Socket.io Namespaces and Rooms
+====================================================================
 
 ## Learning Objectives
 

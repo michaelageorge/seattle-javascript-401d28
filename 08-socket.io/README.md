@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Socket.io Server
+![cf](http://i.imgur.com/7v5ASc8.png) Socket.io
 ======================================================
 
 ## Learning Objectives
