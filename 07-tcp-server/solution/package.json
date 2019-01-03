@@ -1,0 +1,20 @@
+{
+  "name": "class-06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --coverage --verbose --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^23.6.0",
+    "require-dir": "^1.2.0",
+    "uuid": "^3.3.2"
+  }
+}
