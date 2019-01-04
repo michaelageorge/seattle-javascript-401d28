@@ -1,4 +1,4 @@
-# JavaScript 401 - warmup-04 - Daily Warmup
+# JavaScript 401 - Daily Warmup
 
 ## Setup
 * Work in a repository for this warmup exercise (`warmup-daily`)

@@ -1,4 +1,4 @@
-# JavaScript 401 - warmup-03 - DSA Practice
+# JavaScript 401 Warm-Up - DSA Practice
 
 ## Setup
 * Work in a repository for this warmup exercise (`warmup-03`)
