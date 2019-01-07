@@ -21,13 +21,26 @@
 
 ## Outline
 * :05 **Housekeeping/Recap**
-* :30 **Whiteboard/DSA Review** 
+  * Survey Feedback
+    * Areas for growth:
+        * Timeboxing is hard
+        * Warm-Ups are stressful
+        * Code sandbox is incomplete
+        * Ambiguity is ... ambiguous
+        * Q was a big WTF for many of you
+        * Career Coaching (some yuck, some more)
+    * Fuel for strength
+        * Having a full instructional staff
+        * Lectures are fun (thanks)
+        * Availability after hours
+        * Proactive assistance
 * :15 **Lightning Talk** 
+  * Lena - Liskov Principle
+* :40 **Q Code Review** 
 * Break 
-* :30 **CS/UI Concepts** -
-* :20 **Code Review** 
+* :60 **REST**
 * Break
-* :60 **Main Topic**
+* :60 **Demo and Lab Prep**
 
 ## Computer Science Concept:
 ## UI Concept:
