@@ -1,4 +1,4 @@
-# JavaScript 401 - warmup-02 - Express
+# JavaScript 401 Warm-Up - Express
 
 ## Setup
 * Work in a repository for this warmup exercise (`warmup-02`)

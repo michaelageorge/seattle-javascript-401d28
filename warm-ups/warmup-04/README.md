@@ -1,4 +1,4 @@
-# JavaScript 401 - warmup-04 - Async 
+# JavaScript 401 Warm-Up - Async 
 
 ## Setup
 * Work in a repository for this warmup exercise (`warmup-04`)
