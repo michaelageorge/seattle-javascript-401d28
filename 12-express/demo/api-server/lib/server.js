@@ -23,20 +23,20 @@ let messager = (req,res,next) => {
   next();
 };
 
-app.get('/api/v1/posts', (req,res,next) => {
+app.get('/posts', (req,res,next) => {
   let count = db.length;
   let results = db;
   res.json({count,results});
 });
 
-app.get('/api/v1/posts/:id', (req,res,next) => {
+app.get('/posts/:id', (req,res,next) => {
   let id = req.params.id;
   let record = db.filter((record) => record.id === parseInt(id));
   res.json(record[0]);
 });
 
 
-app.post('/api/v1/posts', messager, (req,res,next) => {
+app.post('/posts', messager, (req,res,next) => {
   let {name,author,title,article} = req.body;
   let record = {name,author,title,article};
   record.id = db.length + 1;
@@ -44,7 +44,7 @@ app.post('/api/v1/posts', messager, (req,res,next) => {
   res.json(record);
 });
 
-app.put('/api/v1/posts/:id', messager, (req,res,next) => {
+app.put('/posts/:id', messager, (req,res,next) => {
   let id = req.params.id;
   let {name,author,title,article} = req.body;
   let updatedRecord = {name,author,title,article};
@@ -52,7 +52,7 @@ app.put('/api/v1/posts/:id', messager, (req,res,next) => {
   res.json(updatedRecord);
 });
 
-app.delete('/api/v1/posts/:id', messager, (req,res,next) => {
+app.delete('/posts/:id', messager, (req,res,next) => {
   let id = req.params.id;
   db = db.filter( (record) => record.id !== parseInt(id) );
   res.json({});
