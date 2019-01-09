@@ -1,20 +1,32 @@
 'use strict';
 
 const express = require('express');
-const postsRouter = require('./api/posts.js');
-const carsRouter = require('./api/cars.js');
-const notFound = require('./middleware/404.js');
-const errorHandler = require('./middleware/500.js');
+const morgan = require('morgan');
+const cors = require('cors');
+
+// Custom Middleware
+const errorHandler = require('../middleware/500.js');
+const notFoundHandler = require('../middleware/404.js');
+
+// Custom Routes
+const teamsRouter = require('../routes/teams.js');
+const playersRouter = require('../routes/players.js');
 
 const app = express();
 
-const PORT = process.env.PORT || 8080;
-
+app.use(cors());
+app.use(morgan('dev'));
 app.use(express.json());
-app.use( postsRouter );
-app.use( carsRouter );
-app.use('*', notFound);
+
+app.use( express.static('./public') );
+
+// Actual Routes
+app.use(teamsRouter);
+app.use(playersRouter);
+
+app.use('*', notFoundHandler);
 app.use(errorHandler);
+
 
 module.exports = {
   server: app,
