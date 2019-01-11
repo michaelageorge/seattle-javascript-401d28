@@ -1,0 +1,38 @@
+{
+  "categories": [
+    {
+      "name": "Electronics",
+      "id": 1
+    },
+    {
+      "id": 3,
+      "name": "Amazing Things"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "Kitchen",
+      "name": "Microwave",
+      "price": 151.99
+    },
+    {
+      "id": 2,
+      "category": "Electronics",
+      "name": "Radio",
+      "price": 15.99
+    },
+    {
+      "id": 3,
+      "category": "Electronics",
+      "name": "TV",
+      "price": 499.99
+    },
+    {
+      "id": 4,
+      "category": "Electronics",
+      "name": "Speaker Wire",
+      "price": 5.99
+    }
+  ]
+}

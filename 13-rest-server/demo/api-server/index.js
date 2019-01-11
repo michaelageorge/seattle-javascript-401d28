@@ -1,9 +1,9 @@
 'use strict';
 
-require('dotenv').config();
+const mongoose = require('mongoose');
+const server = require('./lib/server.js');
 
-// Turn us into ES6!!
-require('babel-register');
+const MONGO = 'mongodb://localhost:27017/baseball';
+mongoose.connect(MONGO);
 
-// This will require our "app.js" file and immediately call its 'start' method, sending the port from our .env
-require('./src/app.js').start(process.env.PORT);
+server.start(3000);
