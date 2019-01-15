@@ -1,0 +1,16 @@
+{
+  "name": "trees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "binary-tree.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test-watch": "jest --verbose --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
+}

@@ -1,15 +1,14 @@
 'use strict';
 
 // 3rd Party Resources
-import express from 'express';
-import cors from 'cors';
-import morgan from 'morgan';
+const express = require('express');
+const cors = require('cors');
+const morgan = require('morgan');
 
 // Esoteric Resources
-import errorHandler from './middleware/error.js';
-import notFound from './middleware/404.js';
-import authMiddleware from './auth/middleware.js';
-import authRouter from './auth/router.js';
+const errorHandler = require( './middleware/error.js');
+const notFound = require( './middleware/404.js' );
+const authRouter = require( './auth/router.js' );
 
 // Prepare the express app
 const app = express();
@@ -24,11 +23,6 @@ app.use(express.urlencoded({extended:true}));
 // Routes
 app.use(authRouter);
 
-app.get('/', authMiddleware, (req,res) => {
-  res.cookie('auth', req.token);
-  res.send('Hello World');
-});
-
 // Catchalls
 app.use(notFound);
 app.use(errorHandler);
@@ -39,7 +33,6 @@ module.exports = {
   server: app,
   start: (port) => {
     if( ! isRunning ) {
-
       app.listen(port, () => {
         isRunning = true;
         console.log(`Server Up on ${port}`);
