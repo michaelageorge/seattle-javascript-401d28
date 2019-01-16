@@ -88,7 +88,6 @@
   * Eat.
   * Drink.
   * Present.
-  * Graduate.
   * Win.
   
 ## Presentations
@@ -122,10 +121,16 @@ Why a deck? It's a helpful tool to keep you on time and on focus. Also, you will
   * Or at Auth0
 * Create an installable, downloadable `npm` package of value to devs
   * Algorithms, OAuth, Queueing, etc.
+  * Middleware
   * Helper Libraries or Utilities
 * Any sort of automation tool for a student, instructor, or the school
+  * Class Creator
+  * Assignment Linter
+* Github Tools
 * Implement OAuth from the other side (be a provider)
 * Text based games
+* Dev-Ops style automation (deployments, aws configs, etc)
+* Dockerizations
 * AI or Machine Learning Utility
 * Anything you can think of with a Raspberry Pi
   * Motion Detect
