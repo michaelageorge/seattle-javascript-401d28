@@ -1,6 +1,21 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) Mid-Term Projects
 =======================================================
 
+## Project Ideas
+* Raspberry Pi Alerter
+* Notes Tracker (CLI/Text)
+* NPM Macro Builder & Runner
+* Create a Serverless System
+* AWS API
+
+## Project Groups
+| serverless  | Pi | NPM Macro | Notes App |
+|-----------|-----------|-----------|-----------|
+| Caity     | George    | Becca     | Brent     |
+| Fletcher  | Hannah    | Jared     | Jacob     |
+| Lena      | Heather   | Ryan      | Jon       |
+|           | Michael   | Tanner    | Siobhan   |
+
 ## Core Requirements
 
 * Use any, all, most, or none of what you learned ... 
