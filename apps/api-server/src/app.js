@@ -1,8 +1,8 @@
 'use strict';
 
 /**
- * API Server module.
- * @module src/server.js
+ * API Server Module
+ * @module src/app
  */
 
 const cwd = process.cwd();
@@ -13,7 +13,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 
 // Esoteric Resources
-const errorHandler = require( `${cwd}/src/middleware/error.js`);
+const errorHandler = require( `${cwd}/src/middleware/500.js`);
 const notFound = require( `${cwd}/src/middleware/404.js` );
 const v1Router = require( `${cwd}/src/api/v1.js` );
 
@@ -38,8 +38,8 @@ app.use(notFound);
 app.use(errorHandler);
 
 /**
- * Exported Function start
- * @param {integer} port (defaults to process.env.PORT)
+ * Start Server on specified port
+ * @param port {integer} (defaults to process.env.PORT)
  */
 let start = (port = process.env.PORT) => {
   app.listen(port, () => {
