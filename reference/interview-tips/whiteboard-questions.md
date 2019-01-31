@@ -26,6 +26,7 @@
 0. write a function that will concat union two linked lists
 0. write a function that will concat intersect two linked lists
 0. write splice
+0. [more practice questions](https://www.geeksforgeeks.org/top-20-linked-list-interview-question/)
 
 ## stack / queue
 0. write a function called reverse(likedList) that will reverse a linked list using a stack
@@ -41,7 +42,7 @@
 0. write a function that uses a while loop to prettyPrint a trees values
 0. write a function that uses recusion to prettyPrint a tress values
 0. write a function called getLeafCount that computes the number of leaves in a tree
-0. write a function called getEdgethat computes the number of edges in a tree
+0. write a function called getEdge that computes the number of edges in a tree
 0. write a function that determines the max child count of a node in the tree
 0. remove nth child from a tree return true or false on success
 
@@ -54,10 +55,11 @@
 0. write a function that will intersect two bst tresss
 0. write a functino that will validate a binary search tree 
 0. write a function to flatten a bst into a linked list (bonus sorted linked list)
+0. [more practice](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Binary%20Search%20Tree&page=1&sortBy=accuracy)
 
 ## hash table
 0. write a function that will hash a string into a number with a size limit
 0. write a function that finds the first duplicate letter in a string (using a hashmap)
 0. write a historam function that prints the count of each letter in a string
 0. write a function that will union two hash tables
-0. implament a linked list using your hashtable
+0. implement a linked list using your hashtable
