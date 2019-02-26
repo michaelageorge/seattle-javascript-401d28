@@ -1,10 +1,6 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) Final Projects
 ====================================================
 
-## TEAMS
-
-## PROJECT IDEAS
-
 ## Drop the Mic and Stuff Your Resume
 Your final project should be a full showcase of the talents you've cultivated during your time here, your creativity, you ability to problem solve, work in a team, and meet a harsh deadline.
 
