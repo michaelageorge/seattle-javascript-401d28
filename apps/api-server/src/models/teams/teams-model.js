@@ -12,10 +12,5 @@ class Teams extends Model {}
 module.exports = Teams;
 
 
-// module.exports = new Teams(schema);
-
-const Teams = require('./teams-model');
-
-let t1 = new Teams(teamSchema);
-let t2 = new Teams(teamSchema);
+module.exports = new Teams(schema);
 
